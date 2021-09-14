@@ -10,8 +10,9 @@ function Contact() {
             <div className="contactBox">
             <div className="contactContainer">
             <div className="contactLinks">
-                <li className="emailLink">
-                    <a href='mailto:davinthedeveloper@gmail.com' target="_blank" rel="noreferrer noopener"> </a>
+                <li>
+                    <a href='mailto:davinthedeveloper@gmail.com' target="_blank" rel="noreferrer noopener">
+                        <div className="emailLink"></div> </a>
                 </li>
             </div>
             </div>

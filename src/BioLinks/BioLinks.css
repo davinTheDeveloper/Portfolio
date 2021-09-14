@@ -21,6 +21,10 @@
     text-decoration-style: none;
 }
 
+.dotRemove {
+    list-style: none;
+}
+
 .linkedinLink {
     background-image: url('./linkedin.jpg');
     background-position: center;
@@ -41,5 +45,6 @@
     width: calc(2vh + 2vw);
     height: calc(2vh + 2vw);
     list-style: none;
+    cursor: pointer;
   }
   
