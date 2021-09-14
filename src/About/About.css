@@ -1,0 +1,55 @@
+#about {
+    margin-top: 250px;
+}
+
+.AboutPage {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.StateContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#picture {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+    height: 150px;
+    width: 250px;
+}
+
+.StateText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.listSizing {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 0;
+}
+
+.NDPicture {
+    background-image: url('./ND.png');
+}
+
+.NCPicture {
+    background-image: url('./NC.jpeg');
+}
+
+
+.TNPicture {
+    background-image: url('./TN.png');
+}
+

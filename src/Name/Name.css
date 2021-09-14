@@ -1,0 +1,15 @@
+.titleContainer {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.title {
+    font-size: calc(2.5vw + 2.5vh);
+    background: transparent;
+}
+

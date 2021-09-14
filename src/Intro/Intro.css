@@ -1,0 +1,55 @@
+.IntroContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 200px;
+    width: auto;
+    font-size: calc(1.5vh + 1.5vw);
+    border: solid;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.mainPoint {
+    padding-top: 75px;
+    font-size: 3.5rem;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),
+                 0 2px 2px rgba(0, 0, 0, 0.20),
+                 0 4px 4px rgba(0, 0, 0, 0.15),
+                 0 8px 8px rgba(0, 0, 0, 0.10),
+                 0 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.border {
+    height: 35px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.positionIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.statement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(1vh + .5vw);
+    margin-bottom: 50px;
+    font-size: calc(1.5vh + 1.5vw);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.descriptions {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 2rem;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}

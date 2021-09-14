@@ -1,0 +1,45 @@
+.linkBox {
+    display: flex;
+    height: 100%;
+    justify-content: right;
+    align-items: end;
+    text-decoration-style: none;
+}
+
+.linkBox,
+.linkBox > ul {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+}
+
+.ListEdit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 275px;
+    text-decoration-style: none;
+}
+
+.linkedinLink {
+    background-image: url('./linkedin.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat:  no-repeat;
+    border-radius: 10%;
+    width: calc(2vh + 2vw);
+    height: calc(2vh + 2vw);
+    cursor: pointer;
+    list-style: none;
+}
+
+.gitLink {
+    background-image: url("./github-mark.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: calc(2vh + 2vw);
+    height: calc(2vh + 2vw);
+    list-style: none;
+  }
+  
