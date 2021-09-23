@@ -11,7 +11,7 @@ function Projects() {
             </div>
             <div className="pairContainer">
             <div className="pair">
-            <div><a href="https://github.com/davinTheDeveloper/wordGames.github.io" target="_blank" rel="noreferrer noopener">
+            <div><a href="https://github.com/davinTheDeveloper/kidsgame" target="_blank" rel="noreferrer noopener">
                 <div className="P1" id="picLink"></div> </a>
             </div>
             <div><a href="https://github.com/davinTheDeveloper/nonprofitTemplate" target="_blank" rel="noreferrer noopener"> 
